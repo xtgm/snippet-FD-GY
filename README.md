@@ -77,20 +77,19 @@
 
 **环境变量重要设置**
 
-文件中的配置点（需要您在 Cloudflare 环境变量中设置）：重要性
-worker.js依赖于以下 环境变量 来正常工作：
 
-SUBSCRIPTION_URL (订阅链接)
+| 变量名 | 说明 | 示例 |
+|--------|------|------|
+| `SUBSCRIPTION_URL` | 订阅链接 | `https://your-subscription-link.com` |
+| `PROXY_URL` | SNIP反代链接 | `https://your-snip-domain.com` |
 
-PROXY_URL (SNIP 反代链接)
+### 可选变量
 
-TELEGRAM_URL (Telegram 群组链接)
-
-BUTTON_TEXT_1 (第一个按钮的文本)
-
-BUTTON_TEXT_2 (第二个按钮的文本)
-
-请确保您已经在 Cloudflare Pages 的设置中配置了这些环境变量。
+| 变量名 | 说明 | 默认值 |
+|--------|------|--------|
+| `TELEGRAM_URL` | 群组/个人链接 | `#` |
+| `BUTTON_TEXT_1` | 第一个按钮文字 | `可以修改你需要显示的内容` |
+| `BUTTON_TEXT_2` | 第二个按钮文字 | `可以修改你需要显示的内容` |
 
 
 ------------------------------------------------------------------------
