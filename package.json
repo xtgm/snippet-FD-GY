@@ -1,0 +1,23 @@
+```json
+{
+  "name": "subscription-checker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker - 订阅链接检测系统",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "subscription",
+    "checker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
+```
