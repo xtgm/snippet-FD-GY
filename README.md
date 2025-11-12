@@ -28,7 +28,7 @@
 ## 📞 支持
 
 - **Telegram群组**: https://t.me/zyssadmin
-- telegram作者**：https://t.me/ym94203
+- **telegram作者**：https://t.me/ym94203
 - **Cloudflare Docs支持**: https://developers.cloudflare.com/
 
 ---
