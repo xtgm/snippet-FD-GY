@@ -15,7 +15,8 @@
 **✅ 完美支持 Cloudflare Workers**  
 **✅ 完美支持 Cloudflare Pages**  
 
-<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/1a3f6739-5f0e-477e-be24-8b8a5596e653" />
+<img width="1280" height="612" alt="image" src="https://github.com/user-attachments/assets/b6a064bd-e51d-477f-952c-4015c8d5e0a3" />
+
 
 
 
