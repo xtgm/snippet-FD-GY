@@ -1,4 +1,4 @@
-          # 🚀 Hello Snippets -   
+# 🚀 Hello Snippets -
 
 **双模式功能 支持你的snip反代检测 支持你的公益订阅链接**
 
