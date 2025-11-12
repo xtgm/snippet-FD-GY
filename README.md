@@ -6,7 +6,6 @@
 
 
 ## 📁 项目文件结构
-
 ```
 subscription-checker/
 ├── worker.js                 # Worker 主文件
