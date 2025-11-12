@@ -1,0 +1,15 @@
+```toml
+name = "subscription-checker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# 环境变量在部署时通过 Cloudflare Dashboard 设置
+# 不要在此文件中包含敏感信息
+
+# 本地开发时的环境变量示例（使用 .dev.vars 文件）
+# SUBSCRIPTION_URL = "https://your-subscription-link.com"
+# PROXY_URL = "https://your-snip-domain.com"
+# TELEGRAM_URL = "https://t.me/yourgroup"
+# BUTTON_TEXT_1 = "订阅链接"
+# BUTTON_TEXT_2 = "加入群组"
+```
