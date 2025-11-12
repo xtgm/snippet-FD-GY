@@ -108,13 +108,17 @@
 登录你的cloudflare
 找到计算和AI里的Workers 和 Pages：
 选择从 Hello World! 开始：
+
 <img width="828" height="663" alt="image" src="https://github.com/user-attachments/assets/ae3da883-4ebb-4947-94b7-80978c619dfb" />
 
 输入任意的work名称之后点击部署即可
+
 <img width="1339" height="733" alt="image" src="https://github.com/user-attachments/assets/be717f60-0f29-40fe-8159-e442942fb955" />
 
 然后在cloudflare的Workers 和 Pages里面 找到你部署好的work项目 以我的snip-work项目为例： 点击编辑代码
+
 <img width="1636" height="135" alt="image" src="https://github.com/user-attachments/assets/687c865d-6c4b-4f6a-8c14-75c4417ca51f" />
+
 将 worker.js 的内容粘贴到 Worker 编辑器中并完成部署
 
 ------------------------------------------------------------------------
