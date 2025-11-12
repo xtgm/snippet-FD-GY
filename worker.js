@@ -1,16 +1,14 @@
-// Cloudflare Pages Functions 入口文件
-// Pages 不支持 import 语法,需要直接包含所有代码
-
+// Cloudflare Worker 主文件 - 完全加密版本
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     
-    // API端点:获取订阅链接
+    // API端点：获取订阅链接
     if (url.pathname === '/api/get-subscription') {
       return handleGetSubscription(request, env);
     }
     
-    // API端点:获取SNIP反代链接
+    // API端点：获取SNIP反代链接
     if (url.pathname === '/api/get-proxy') {
       return handleGetProxy(request, env);
     }
@@ -79,8 +77,8 @@ function handleGetProxy(request, env) {
 // HTML页面生成函数
 function getHTML(env) {
   const telegramUrl = env.TELEGRAM_URL || '#';
-  const buttonText1 = env.BUTTON_TEXT_1 || '复制订阅链接';
-  const buttonText2 = env.BUTTON_TEXT_2 || '加入 Telegram 群组';
+  const buttonText1 = env.BUTTON_TEXT_1 || '可以修改你需要显示的内容';
+  const buttonText2 = env.BUTTON_TEXT_2 || '可以修改你需要显示的内容';
   
   return `<!DOCTYPE html>
 <html lang="zh-CN">
