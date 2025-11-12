@@ -14,8 +14,10 @@ subscription-checker/
 ├── .env.example            # 环境变量示例
 └── docs/
     └── DEPLOYMENT.md        # 详细部署指南
+   ```
 
 
+  ```
 
 
 
