@@ -1,16 +1,16 @@
 // Cloudflare Pages Functions 入口文件
-// 注意: 此文件必须命名为 _worker.js (下划线开头) 并放在项目根目录
+// Pages 不支持 import 语法,需要直接包含所有代码
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     
-    // API端点: 获取订阅链接
+    // API端点:获取订阅链接
     if (url.pathname === '/api/get-subscription') {
       return handleGetSubscription(request, env);
     }
     
-    // API端点: 获取SNIP反代链接
+    // API端点:获取SNIP反代链接
     if (url.pathname === '/api/get-proxy') {
       return handleGetProxy(request, env);
     }
