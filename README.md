@@ -3,6 +3,36 @@
 
 一个基于 Cloudflare Workers 的订阅链接检测系统，支持链接加密、状态检测和一键复制功能。
 
+
+
+## 📁 项目文件结构
+
+```
+subscription-checker/
+├── worker.js                 # Worker 主文件
+├── wrangler.toml            # Cloudflare Workers 配置
+├── package.json             # 项目依赖
+├── README.md                # 项目说明文档
+├── .gitignore              # Git 忽略文件
+├── .env.example            # 环境变量示例
+└── docs/
+    └── DEPLOYMENT.md        # 详细部署指南
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## ✨ 特性
 
 - 🔐 **完全加密** - 所有敏感链接通过环境变量管理，不出现在代码中
@@ -12,13 +42,20 @@
 - 🎨 **现代设计** - 响应式界面，支持移动设备
 - ⚡ **高性能** - 基于 Cloudflare Workers，全球加速
 
+
+
+
+
+
+
+
+
+
 ## 🚀 快速开始
 
 ### 方法一：Cloudflare Workers 部署（推荐）
 
 直接复制worker.js的内容去部署即可
-
-
 【下方的worker部署小白勿看】
 1. **克隆项目**
    ```bash
