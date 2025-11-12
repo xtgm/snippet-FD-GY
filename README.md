@@ -102,24 +102,32 @@
 
 ## 🚀 快速开始
 
---- ### worker 部署（小白最优选择）
+--- **worker部署**（小白最优选择）
 部署 CF Worker：
 
 登录你的cloudflare
 找到计算和AI里的Workers 和 Pages：
 选择从 Hello World! 开始：
 
-<img width="828" height="663" alt="image" src="https://github.com/user-attachments/assets/ae3da883-4ebb-4947-94b7-80978c619dfb" />
+<img width="1264" height="602" alt="image" src="https://github.com/user-attachments/assets/2b80a97b-ee57-42a8-be1a-8180254f54dc" />
+
 
 输入任意的work名称之后点击部署即可
 
-<img width="1339" height="733" alt="image" src="https://github.com/user-attachments/assets/be717f60-0f29-40fe-8159-e442942fb955" />
+<img width="1645" height="806" alt="image" src="https://github.com/user-attachments/assets/b26217ed-d17c-465d-bcbd-b232ab5a4fd0" />
 
-然后在cloudflare的Workers 和 Pages里面 找到你部署好的work项目 以我的snip-work项目为例： 点击编辑代码
 
-<img width="1636" height="135" alt="image" src="https://github.com/user-attachments/assets/687c865d-6c4b-4f6a-8c14-75c4417ca51f" />
+然后在cloudflare的Workers 和 Pages里面 找到你部署好的work项目 以我的项目为例： 点击编辑代码
+
+<img width="1646" height="128" alt="image" src="https://github.com/user-attachments/assets/a7f0c75a-56c3-467b-a07f-d37cafb8dd6c" />
+
 
 将 worker.js 的内容粘贴到 Worker 编辑器中并完成部署
+
+<img width="1906" height="621" alt="image" src="https://github.com/user-attachments/assets/c84e249d-4673-4a5e-ad1a-e18d20bb0ec6" />
+
+**到这里worker部署就结束了**
+
 
 ------------------------------------------------------------------------
 
