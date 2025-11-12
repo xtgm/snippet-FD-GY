@@ -1,11 +1,9 @@
-```markdown
-# Cloudflare Worker - 订阅链接检测系统 snip反代域名检测为其主要 
+# Cloudflare Worker 订阅链接检测系统
 
-一个基于 Cloudflare Workers 的订阅链接检测系统，支持链接加密、状态检测和一键复制功能。
-
-
+完整的 GitHub 项目结构，支持 Cloudflare Workers 和 Pages 部署。
 
 ## 📁 项目文件结构
+
 ```
 subscription-checker/
 ├── worker.js                 # Worker 主文件
