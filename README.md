@@ -19,7 +19,7 @@
 
 
 
-```
+
 ⚠️ 免责声明
 本免责声明适用于 GitHub 上的 “hello-snippets” 项目 【非新项目】
 
@@ -41,7 +41,7 @@
 
 
 
----
+
 
 
 
@@ -59,15 +59,15 @@
 直接复制worker.js的内容去部署即可
 【下方的worker部署小白勿看】
 1. **克隆项目**
-   ```bash
+   bash
    git clone https://github.com/your-username/subscription-checker.git
    cd subscription-checker
-   ```
+   
 
 2. **安装依赖**
-   ```bash
+   bash
    npm install
-   ```
+   
 
 3. **配置环境变量**
    - 登录 [Cloudflare Dashboard](https://dash.cloudflare.com)
@@ -77,9 +77,9 @@
    - 在 **设置 → 变量** 中添加环境变量
 
 4. **部署**
-   ```bash
+   bash
    npm run deploy
-   ```
+   
 
 ### 方法二：Cloudflare Pages 部署
 
